@@ -54,5 +54,3 @@ RUN : > /etc/mongod.conf && \
     rpm-file-permissions
 
 VOLUME ["/var/lib/mongodb/data"]
-
-USER 184
